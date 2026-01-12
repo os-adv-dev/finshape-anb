@@ -29,10 +29,6 @@ android {
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES'
     }
-
-    buildFeatures {
-        dataBinding true
-    }
 }
 
 dependencies {
